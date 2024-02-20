@@ -1,0 +1,351 @@
+
+*{
+  font-family: 'Nunito', sans-serif;
+  padding: 0;
+}
+
+body{
+  font-family: 'Nunito', sans-serif;
+  padding: 0;
+}
+
+
+
+.form-control:focus {
+    outline: 0 !important;
+    border-color: initial;
+    box-shadow: none;
+}
+
+
+
+.social_media_logo img{
+  aspect-ratio: 3/3;
+  width: 10%;
+  border-radius: 15px;
+}
+
+.social_media_logo_footer img{
+  aspect-ratio: 3/3;
+  width: 8%;
+  border-radius: 15px;
+}
+
+.navbar_icon{
+  display: flex;
+  
+}
+
+.navbar_icon img{
+  padding: 20px;
+}
+
+.inner_p img{
+    width: 100%;
+    aspect-ratio: 3/3;
+    border-bottom-left-radius: 140px;
+    border-bottom-right-radius: 140px;
+    
+}
+
+
+
+.inner_p{
+    border-left: 5px solid #306E3D;
+    border-top: 5px solid #306E3D;
+    border-bottom: 5px solid #306E3D;
+    border-bottom-right-radius: 50px;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+
+}
+
+.inner_p p{
+font-size: 20px;
+font-weight: 500;
+}
+
+.skincare_range{
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+
+}
+
+.skin{
+    background-image: url(img/bcg.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+
+.Products img{
+    width: 100%;
+    aspect-ratio: 3\2;
+    border-bottom-left-radius: 140px;
+    border-bottom-right-radius: 140px;
+}
+
+
+.Products{
+    
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+}
+
+
+
+
+
+
+.product-count {
+    
+    height: 20px;
+  }
+  
+  
+  
+  .button-count {
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+    background-color: #E5E4E2;
+    color: white;
+    font-size: 24px;
+    line-height: 30px;
+    text-align: center;
+    border: none;
+    outline: none;
+  }
+  .button-count:active {
+    background-color: #E5E4E2;
+  }
+  
+  .number-product {
+    display: inline-block;
+    width: 46px;
+    height: 30px;
+    font-size: 20px;
+    border: 1px solid ;
+    text-align: center;
+  }
+  
+  :disabled {
+    background-color: #E5E4E2;
+  }
+
+  
+
+
+  .Products-1 img{
+    width: 100%;
+    aspect-ratio: 3\2;
+    
+}
+
+
+.Products-1{
+    border: 7px solid #808080;
+    border-radius: 5px;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+}
+
+
+
+
+.bcg_img{
+    background-image: url(img/centre_bcg.webp);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    
+}
+
+
+
+.blog .carousel-indicators {
+	left: 0;
+	top: auto;
+    bottom: -40px;
+
+}
+
+/* The colour of the indicators */
+.blog .carousel-indicators li {
+    background: #a3a3a3;
+    border-radius: 50%;
+    width: 8px;
+    height: 8px;
+}
+
+.blog .carousel-indicators .active {
+background: #707070;
+}
+
+
+
+
+/* Styles for wrapping the search box */
+
+.main {
+  width: 50%;
+  margin: 50px auto;
+}
+
+/* Bootstrap 5 text input with search icon */
+
+.has-search .form-control {
+  padding-left: 2.375rem;
+}
+
+.has-search .form-control-feedback {
+  position: absolute;
+  z-index: 2;
+  display: block;
+  width: 2.375rem;
+  height: 2.375rem;
+  line-height: 2.375rem;
+  text-align: center;
+  pointer-events: none;
+  color: black;
+  
+}
+
+.btn-secondary{
+  background-color: #95c772 !important;
+  border-top-right-radius: 1.5rem !important;
+  border-bottom-right-radius: 1.5rem !important;
+  
+}
+
+
+
+.form-control{
+  padding: 1rem !important;
+  border-top-left-radius: 5.25rem !important;
+  border-bottom-left-radius: 5.25rem !important;
+  background-color: #fff !important;
+  
+}
+
+
+
+
+.blogs_img img{
+  width: 100%;
+  aspect-ratio: 3/2;
+}
+
+
+
+
+
+.Reviews_slider_img img{
+border: 5px solid #95c772;
+border-radius: 50px;
+margin-top: 50px;
+
+}
+
+.Reviews_slider_img p{
+  font-size: 12px;
+  padding: 10px;
+  padding-bottom: 20px;
+}
+
+.Reviews_slider_img h6{
+  
+  padding-top: 20px;
+  font-weight: 700;
+}
+
+
+.Reviews_slider_img{
+  
+ padding-top: 20px;
+  border-radius: 15px;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 10px 10px;
+  border-bottom: 1px solid gray;
+  background-image: url(img/slider_bg.jpg); 
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  background-position: center;
+  
+}
+
+
+.PR_Activities{
+  border-left: 5px solid #306e3d;
+  border-top: 5px solid #306e3d;
+  border-bottom: 5px solid #306e3d;
+  border-bottom-right-radius: 50px;
+}
+
+
+.star_colour{
+  color: #fcb900;
+}
+
+
+.overlay{
+  height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background: #ffffffb6;
+}
+
+.accordion-button:not(.collapsed){
+  color: #95c772 !important;
+}
+
+
+.Policies :hover{
+color: #95c772;
+}
+
+.qucik_link :hover{
+  color: #95c772;
+}
+
+
+
+
+
+
+
+.counter {
+    width: 150px;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.counter input {
+    width: 50px;
+    border: 0;
+    line-height: 30px;
+    font-size: 20px;
+    text-align: center;
+    
+    border: 1px solid black;
+    appearance: none;
+    outline: 1;
+}
+.counter span {
+    display: block;
+    font-size: 20px;
+    padding: 0 10px;
+    cursor: pointer;
+    border: 1px solid black;
+    user-select: none;
+    background-color: #e2e2e2;
+}
